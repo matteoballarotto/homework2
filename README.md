@@ -10,7 +10,9 @@ comando 2D Nav Goal, in una posizione del mondo virtuale. Il video deve contener
 all’autore/agli autori
 
 <br>
+
 ### Esecuzione
+
 <br>
 Una volta clonato il repository, spostare i file relativi alla mappa nella directory principale:
 

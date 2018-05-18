@@ -63,7 +63,7 @@ Restiamo su quest'ultimo e attraverso i comandi "2D Pose Estimate" e "2D Nav Goa
 <br>
 
 Di seguito il video del funzionamento specifico:<br>
-[linkname "Video"](https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s "Secondo Elaborato")
+[Video](https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s "Secondo Elaborato")
 
 
 

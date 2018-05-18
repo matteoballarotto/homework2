@@ -18,7 +18,7 @@ Una volta clonato il repository, spostare i file relativi alla mappa nella direc
 ```
   mv map.yaml ~/
 ```
-
+<br>
 
 Prima di procede con l'avvio del programma, lanciare lo script clean.sh e poi setup.sh per settare le configurazioni <br>
 

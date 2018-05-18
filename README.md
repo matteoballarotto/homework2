@@ -13,7 +13,14 @@ all’autore/agli autori
 
 ### Esecuzione
 <br><br>
-Una volta clonato il repository, lanciare prima lo script clean.sh e poi setup.sh per settare le configurazioni <br>
+Una volta clonato il repository, spostare i file relativi alla mappa nella directory principale:
+
+```
+  mv map.yaml ~/
+```
+
+
+Prima di procede con l'avvio del programma, lanciare lo script clean.sh e poi setup.sh per settare le configurazioni <br>
 
 ```
   ./clean.sh
@@ -24,6 +31,7 @@ Una volta clonato il repository, lanciare prima lo script clean.sh e poi setup.s
 ```
   ./setup.sh
 ```
+<br>
 
 <br><br>
 Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
@@ -51,14 +59,13 @@ Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 A quel punto si aprirà sia Gazebo che RViz.
 Restiamo su quest'ultimo e attraverso i comandi "2D Pose Estimate" e "2D Nav Goal" impostiamo la posizione iniziale del robot e la sua destinazione.
 
-<br> <br>
+<br>
 
 Di seguito il video del funzionamento specifico:
 
-<br>
 
 
-### Funzionamento specifico <br>
+### Tracciamento manuale della mappa senza  <br>
 Una volta a pieno regime, ovvero con tutti e tre i nodi attivi, il nodo 3, ovvero il listener, riceve una volta al secondo il messaggio dal nodo1, mentre la scelta la riceve solo quando l'utente la inserisce all'interno della console.<br>
 Una volta ricevuta, mostra il messaggio in base alla scelta effettuata.<br>
 Dopodichè di rimette in attesa fino ad altra scelta.

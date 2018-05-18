@@ -63,8 +63,9 @@ Restiamo su quest'ultimo e attraverso i comandi "2D Pose Estimate" e "2D Nav Goa
 <br>
 
 Di seguito il video del funzionamento specifico:
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/watch?v=MT_nwiLn3u0&t=8s/0.jpg)](https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s "Secondo Elaborato")
-
+[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s/0.jpg)](https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s "Secondo Elaborato"
+")
+https://www.youtube.com/watch?v=MT_nwiLn3u0&t=8s "Secondo Elaborato"
 
 
 ### Tracciamento manuale della mappa tramite teleop <br>

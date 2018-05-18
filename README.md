@@ -9,8 +9,7 @@ Salvare in un breve video i dati che vengono visualizzati tramite Rviz quando il
 comando 2D Nav Goal, in una posizione del mondo virtuale. Il video deve contenere i riferimenti
 all’autore/agli autori
 
-
-
+<br>
 ### Esecuzione
 <br>
 Una volta clonato il repository, spostare i file relativi alla mappa nella directory principale:

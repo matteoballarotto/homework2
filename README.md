@@ -38,7 +38,7 @@ Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 • Nel primo:
 
 ```
-  ./00.config.sh
+  ./00_config.sh
 ```
 
 <br>
@@ -52,7 +52,7 @@ Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 • Nel terzo: <br>
 
 ```
-  ./02_RViz.sh
+  ./02_rv   iz.sh
 ```
 
 <br>
@@ -65,7 +65,39 @@ Di seguito il video del funzionamento specifico:
 
 
 
-### Tracciamento manuale della mappa senza  <br>
-Una volta a pieno regime, ovvero con tutti e tre i nodi attivi, il nodo 3, ovvero il listener, riceve una volta al secondo il messaggio dal nodo1, mentre la scelta la riceve solo quando l'utente la inserisce all'interno della console.<br>
-Una volta ricevuta, mostra il messaggio in base alla scelta effettuata.<br>
-Dopodichè di rimette in attesa fino ad altra scelta.
+### Tracciamento manuale della mappa tramite teleop <br>
+Se invece si desidera costruire la mappa manualmente partendo dall'ambiente virtuale guidando il robot, apriamo 4 terminali e eseguiamo i seguenti script: <br>
+
+• Nel primo:
+
+```
+  ./n_00config.sh
+```
+
+<br>
+• Nel secondo: <br>
+
+```
+  ./n_01slam.sh
+```
+
+<br>
+• Nel terzo: <br>
+
+```
+  ./02_RViz.sh
+```
+
+<br>
+• Nel quarto: <br>
+
+```
+  ./n_03teleop.sh
+```
+<br>
+
+Una volta aperti i 4 terminali, aprire Gazebo in sfondo e il terminale n°4 attivo per permettere la navigazione del robot.<br>
+
+                 w
+Usando i tasti a s d il robot si muoverà nell'ambiente, e in contemporanea farà la traccia della mappa su RViz.<br>
+                 x

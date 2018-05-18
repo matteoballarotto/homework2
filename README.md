@@ -33,7 +33,7 @@ Prima di procede con l'avvio del programma, lanciare lo script clean.sh e poi se
 ```
 <br>
 
-<br><br>
+
 Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 • Nel primo:
 

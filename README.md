@@ -14,30 +14,39 @@ all’autore/agli autori
 ### Esecuzione
 <br><br>
 Una volta clonato il repository, lanciare prima lo script clean.sh e poi setup.sh per settare le configurazioni <br>
+
 ```
   ./clean.sh
 ```
+
 <br>
+
 ```
   ./setup.sh
 ```
+
 <br><br>
 Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 • Nel primo:
+
 ```
   ./00.config.sh
 ```
+
 <br>
 • Nel secondo: <br>
+
 ```
   ./01_lodemap.sh
 ```
 
 <br>
 • Nel terzo: <br>
+
 ```
   ./02_RViz.sh
 ```
+
 <br>
 A quel punto si aprirà sia Gazebo che RViz.
 Restiamo su quest'ultimo e attraverso i comandi "2D Pose Estimate" e "2D Nav Goal" impostiamo la posizione iniziale del robot e la sua destinazione.

@@ -52,7 +52,7 @@ Dopodichè, aprire tre terminali diversi e avviare rispettivamente: <br>
 • Nel terzo: <br>
 
 ```
-  ./02_rv   iz.sh
+  ./02_rviz.sh
 ```
 
 <br>

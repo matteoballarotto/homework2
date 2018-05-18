@@ -98,6 +98,8 @@ Se invece si desidera costruire la mappa manualmente partendo dall'ambiente virt
 
 Una volta aperti i 4 terminali, aprire Gazebo in sfondo e il terminale n°4 attivo per permettere la navigazione del robot.<br>
 
-                 w
-Usando i tasti a s d il robot si muoverà nell'ambiente, e in contemporanea farà la traccia della mappa su RViz.<br>
-                 x
+Seguendo le istruzioni nel terminale 4 il robot si muoverà nell'ambiente tracciando la mappa su RViz. Per esportare la mappa, una volta soddisfatti, digitare su un nuovo terminale:
+
+```
+  rosrun map_server map_saver -f ~/map    
+```

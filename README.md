@@ -12,7 +12,7 @@ all’autore/agli autori
 
 
 ### Esecuzione
-<br><br>
+<br>
 Una volta clonato il repository, spostare i file relativi alla mappa nella directory principale:
 
 ```
